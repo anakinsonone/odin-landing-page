@@ -1,5 +1,10 @@
+body {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
+  color: #f9faf8;
 }
 
 ul {
@@ -11,7 +16,24 @@ ul {
 }
 
 .header {
+  color: #f9faf8;
+  margin: 0;
+  padding: 2vw 20vw;
   display: flex;
   justify-content: space-between;
-  padding: 8px 24px;
+  align-items: baseline;
+  background-color: #1f2937;
+}
+
+.header > .logo {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.header > .links {
+  font-size: 16px;
+}
+
+.information {
+  display: flex;
 }
